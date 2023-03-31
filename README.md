@@ -1,2 +1,2 @@
-# C
-Pequeno projeto para estudo da linguagem
+# C "C Programing 
+Pequeno projeto para estudo da linguagem."
