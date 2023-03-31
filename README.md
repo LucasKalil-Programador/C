@@ -1,2 +1,2 @@
-# C "C Programing 
-Pequeno projeto para estudo da linguagem."
+# C Labs
+repositorio com testes e pequenos projetos em C
