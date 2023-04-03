@@ -27,14 +27,10 @@ double method_runner(double (*method)(double, double, double, double (*)(double)
 
 int main()
 {
-  double f(double x) { return pow(x, 2); };
+  double f(double x) { return pow(x, 3) + 2 * x - 1; };
 
-  struct Settings sets = {2, 3, pow(10, 9), f};
+  struct Settings sets = {1, 4, pow(10, 10), f};
 
   method_runner(method1, "M1", sets);
-  method_runner(method2, "M2", sets);
-  method_runner(method3, "M3", sets);
-  method_runner(method4, "M4", sets);
-  method_runner(method5, "M5", sets);
   return 0;
 }
